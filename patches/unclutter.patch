@@ -77,7 +77,7 @@ index 76ed8aa..4239cf0 100644
 +		cursor_hidden = false;
 +
 +		if (restore_focus)
-+			motionnotify(0);
++			motionnotify(0, NULL, 0, 0, 0, 0);
 +	}
 +}
 +
